@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bd7ila6ofu3w1"]
+
+[ext_resource type="Script" uid="uid://u6baycdjvqup" path="res://scripts/boid.gd" id="2_vrn0v"]
+
+[node name="Boid" type="Node2D"]
+script = ExtResource("2_vrn0v")
+boid_scale = 2.0
+margin = 150.0
+turn_factor = 0.07

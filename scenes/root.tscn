@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://byt2ebsddgno5"]
+
+[ext_resource type="Script" uid="uid://bw13g7s37c0jr" path="res://scripts/root.gd" id="1_j5px3"]
+
+[node name="Root" type="Node2D"]
+script = ExtResource("1_j5px3")
+boid_count = 500
+margin = 400.0
